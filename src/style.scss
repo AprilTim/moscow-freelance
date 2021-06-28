@@ -1,0 +1,69 @@
+@import "./styles/fonts.scss";
+@import "./styles/footer.scss";
+@import "./styles/header.scss";
+@import "styles/content-section";
+@import "styles/main-page";
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+html {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+input, textarea, select {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Roboto", "Arial", "sans-serif";
+  background: #181738;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 1288px;
+  padding: 0 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}

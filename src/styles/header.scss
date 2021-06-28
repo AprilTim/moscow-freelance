@@ -1,0 +1,43 @@
+.header {
+  height: 126px;
+  position: sticky;
+  z-index: 99999;
+  top: 0;
+  background: #181738;
+  transition: 0.2s;
+
+  &.active {
+    background: #D2D6E3;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    padding: 0 54px;
+    background: #D2D6E3;
+    width: 100%;
+    max-width: 56%;
+    height: 100%;
+    font-size: 14px;
+
+    &-container {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      a {
+        color: #151F54;
+        transition: 0.2s;
+
+        &:hover {
+          color: #E53151;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+footer {
+  height: 408px;
+  background: linear-gradient(90deg, #2A294B 50%, #E2E5EF 51%);
+
+  .container {
+    display: flex;
+    align-items: stretch;
+  }
+
+  h6 {
+    font-family: "TTFirs-Regular", "Arial", "sans-serif";
+    font-size: 43px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .left-side {
+    height: 100%;
+    background: #2A294B;
+    padding: 60px 106px 46px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p {
+      font-size: 14px;
+      line-height: 1.8;
+      color: #E2E5EF;
+      opacity: 0.4;
+      white-space: nowrap;
+    }
+  }
+
+  .right-side {
+    padding-left: 56px;
+    padding-top: 60px;
+    padding-bottom: 65px;
+    background: #E2E5EF;
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+    .title {
+      font-size: 22px;
+      line-height: 26px;
+      color: #504F7E;
+    }
+
+    div {
+      width: 50%;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    ul {
+      li:not(.title) {
+        font-size: 16px;
+        line-height: 1.2;
+        color: #504F7E;
+        opacity: 0.5;
+        margin-top: 12px;
+      }
+    }
+
+    .subscribe {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      input {
+        margin-top: 25px;
+        padding: 19px 0 19px 25px;
+        display: block;
+        width: 100%;
+        background: #FFFFFF;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.1em;
+        color: #504F7E;
+        font-family: "Roboto", "Arial", "sans-serif";
+
+        &::placeholder {
+          opacity: 0.3;
+        }
+      }
+
+      .btn {
+        padding: 20px 30px;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 19px;
+        background: #181738;
+        font-family: "Roboto", "Arial", "sans-serif";
+        transition: 0.2s;
+
+        &:hover {
+          background: lighten(#181738, 10%);
+        }
+      }
+
+      .email {
+        font-size: 14px;
+        line-height: 1.8;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #181738;
+        opacity: 0.4;
+      }
+    }
+  }
+}
