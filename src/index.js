@@ -10,7 +10,14 @@ if (window.pageYOffset > 126) {
 }
 })
 
+const setMobileMenu = require("./js/mobileMenu").default;
 
+document.addEventListener("DOMContentLoaded", () => {
+
+  const mobileMenu = document.querySelectorAll(".js-mobile-menu");
+  mobileMenu.forEach(elm => new setMobileMenu(elm));
+
+});
 
 /*const validObj = {};
 

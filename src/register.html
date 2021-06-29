@@ -8,10 +8,11 @@
     <title>Онлайн выставки</title>
 </head>
 <body>
+
 <header class="header">
     <div class="container">
         <div class="header-logo">
-            <svg width="175" height="64" viewBox="0 0 175 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 0 175 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M101.046 10.5305H97.9027L97.2325 12.7819H95.5303L98.1577 4.44691H100.827L103.466 12.7819H101.722L101.046 10.5305ZM98.3416 9.0156H100.583L99.7176 6.11751H99.2075L98.3416 9.0156Z"
                       fill="#E53151"/>
                 <path d="M106.355 6.00465V12.7888H104.635V4.45381H110.589V6.00465H106.355Z" fill="#E53151"/>
@@ -78,16 +79,41 @@
         </div>
 
         <nav class="menu">
-            <ul class="menu-container">
+            <button class="burger">
+                <svg class="open show" width="25" height="17" viewBox="0 0 25 17" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <rect width="25" height="3" fill="#E53151"/>
+                    <rect y="7" width="25" height="3" fill="#E53151"/>
+                    <rect y="14" width="25" height="3" fill="#E53151"/>
+                </svg>
+                <svg class="close" xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 357 357" xml:space="preserve">
+                    <polygon fill="#E53151" points="357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3
+                        214.2,178.5"/>
+                </svg>
+            </button>
+            <ul class="menu-container desktop">
                 <li><a href="#">Галлерея выставок</a></li>
                 <li><a href="#">Компании-участники</a></li>
-                <li><a href="#">О проекте</a></li>
+                <li><a href="#">О&nbsp;проекте</a></li>
                 <li><a href="#">Участникам</a></li>
                 <li><a href="#">Спецпроекты</a></li>
             </ul>
         </nav>
     </div>
 </header>
+
+    <div class="mobile-nav">
+        <div class="mobile-menu js-mobile-menu">
+            <ul class="menu-container">
+                <li><a href="#">Галлерея выставок</a></li>
+                <li><a href="#">Компании-участники</a></li>
+                <li><a href="#">О&nbsp;проекте</a></li>
+                <li><a href="#">Участникам</a></li>
+                <li><a href="#">Спецпроекты</a></li>
+            </ul>
+        </div>
+    </div>
 
 <section class="content-section">
     <div class="container">
