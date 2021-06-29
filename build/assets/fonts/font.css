@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'TTFirs-Medium';
+  src: url('TTFirs-Medium.eot');
+  src: url('TTFirs-Medium.eot?#iefix') format('embedded-opentype'),
+       url('TTFirs-Medium.ttf') format('truetype'),
+       url('TTFirs-Medium.woff') format('woff'),
+       url('TTFirs-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
