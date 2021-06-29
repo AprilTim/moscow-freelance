@@ -50,8 +50,6 @@ formRegister.addEventListener("submit", (event) => {
 
 btnRegisterSubmit.addEventListener('click', () => {
 
-
-
   inputs.forEach(input => {
     console.log(input.name, input.value)
     if (!validationSchema[input.name]?.regular?.test(input.value) && input.value.length < 1) {
