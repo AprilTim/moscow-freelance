@@ -10,6 +10,8 @@ if (window.pageYOffset > 126) {
 }
 })
 
+
+
 /*const validObj = {};
 
 const formRegister = document.querySelector('.form-register');
